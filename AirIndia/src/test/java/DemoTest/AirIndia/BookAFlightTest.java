@@ -9,6 +9,7 @@ import DemoTest.AirIndia.PageObjects.FlightDetailsPage;
 import DemoTest.AirIndia.PageObjects.SearchPage;
 import DemoTest.AirIndia.PageObjects.SearchResultPage;
 import DemoTest.AirIndia.PageObjects.TravellerPage;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BookAFlightTest {
 	private static WebDriver driver;
@@ -28,7 +29,8 @@ public class BookAFlightTest {
 
 	@Test
 	public void BookAFlight() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "C:\\drivers\\browserDrivers\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "C:\\drivers\\browserDrivers\\chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 

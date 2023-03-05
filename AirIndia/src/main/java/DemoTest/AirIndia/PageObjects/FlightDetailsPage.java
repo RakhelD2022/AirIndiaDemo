@@ -26,7 +26,7 @@ public class FlightDetailsPage extends HelperClass {
     	WaitForFiveSeconds();
     	WaitForFiveSeconds();
     	btnFillPassengerDetails.click();
-    	System.out.println("Going to fill passenger name and contact details.");
+    	LogInfo("Going to fill passenger name and contact details.");
     	WaitForFiveSeconds();
     }
 }

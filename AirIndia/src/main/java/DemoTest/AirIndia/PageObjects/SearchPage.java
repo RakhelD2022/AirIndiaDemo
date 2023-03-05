@@ -64,7 +64,7 @@ public class SearchPage extends HelperClass {
     	if (promoCloseLink.isDisplayed())
     	{
     		promoCloseLink.click();
-    		System.out.println("Closed the promo banner.");
+    		LogInfo("Closed the promo banner.");
         	WaitForFiveSeconds();
     	}
     	else
@@ -75,9 +75,9 @@ public class SearchPage extends HelperClass {
     
     public void EnterToAndFromDestinations(String fromPlace, String toPlace) throws InterruptedException {
     	EnterTextAndEnter(txtFromFlight, fromPlace);
-    	System.out.println("Entered from place : " + fromPlace);
+    	LogInfo("Entered from place : " + fromPlace);
     	EnterTextAndEnter(txtToFlight, toPlace);
-    	System.out.println("Entered from place : " + toPlace);
+    	LogInfo("Entered from place : " + toPlace);
     }
     
     public void SelectDepartDate() throws InterruptedException {
@@ -86,13 +86,13 @@ public class SearchPage extends HelperClass {
     	txtDateSelected.click();
     	WaitForFiveSeconds();
     	lnkDepartDate.click();
-    	System.out.println("Entered departure date.");
+    	LogInfo("Entered departure date.");
     }
     
     public void EnterPassengers(int adultCount, int childCount, int infantCount) throws InterruptedException
     {
     	lnkPassengerCount.click();
-    	System.out.println(String.format("No. of passengers: " + adultCount + childCount + infantCount));
+    	LogInfo(String.format("No. of passengers: " + adultCount + childCount + infantCount));
     	WaitForFiveSeconds();
     	while(adultCount-1 > 0) {
     		buttonAddAdultCount.click();
@@ -117,24 +117,24 @@ public class SearchPage extends HelperClass {
     	WaitForFiveSeconds();
     	if (travelClass.equals("Economy")) {
     		txtEconomyClass.click();
-    		System.out.println("Travel class : " + travelClass);
+    		LogInfo("Travel class : " + travelClass);
     		WaitForFiveSeconds();
     	}
     	if (travelClass.equals("Business")) {
     		txtBusinessClass.click();
-    		System.out.println("Travel class : " + travelClass);
+    		LogInfo("Travel class : " + travelClass);
     		WaitForFiveSeconds();
     	}
     	if (travelClass.equals("First")) {
     		txtFirstClass.click();
-    		System.out.println("Travel class : " + travelClass);
+    		LogInfo("Travel class : " + travelClass);
     		WaitForFiveSeconds();
     	}
     }
     
     public void ClickSearch() throws InterruptedException {
     	btnSearch.click();
-    	System.out.println("Searching for available flight details...");
+    	LogInfo("Searching for available flight details...");
     	WaitForFiveSeconds();
     }
 }

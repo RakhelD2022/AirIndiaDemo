@@ -53,7 +53,7 @@ public class CheckoutPage extends HelperClass {
     	WaitForTenSeconds();
     	WaitForTenSeconds();
     	btnCheckout.click();
-    	System.out.println("Entered checkout page and moved into payment page...");
+    	LogInfo("Entered checkout page and moved into payment page...");
     	WaitForFiveSeconds();
     	WaitForTenSeconds();
     	driver.close();

@@ -1,5 +1,6 @@
 package DemoTest.AirIndia.PageObjects;
 
+import org.apache.logging.log4j.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,6 +10,7 @@ import DemoTest.AirIndia.Resources.HelperClass;
 
 public class SearchResultPage extends HelperClass {
 	public WebDriver driver;
+	Logger log;
 
     public SearchResultPage(WebDriver rdriver)
     {
@@ -50,7 +52,7 @@ public class SearchResultPage extends HelperClass {
     	WaitForFiveSeconds();
     	//btnKeepWSB.click();
     	WaitForFiveSeconds();
-    	System.out.println("Selected the earliest business flight available.");
+    	LogInfo("Selected the earliest business flight available.");
     }
 
 }

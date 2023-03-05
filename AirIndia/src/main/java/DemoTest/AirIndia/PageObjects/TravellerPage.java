@@ -73,7 +73,7 @@ public class TravellerPage extends HelperClass {
     	txtLastName.sendKeys(lastName);
     	txtDOB.sendKeys(dob);
     	WaitForFiveSeconds();
-    	System.out.println(String.format("Entered passenger details.\n Name: " + firstName + " " + lastName));
+    	LogInfo(String.format("Entered passenger details.\n Name: " + firstName + " " + lastName));
     }
     
     public void EnterContactDetails(String email, String countryCode, String mobile) throws InterruptedException {
@@ -85,7 +85,7 @@ public class TravellerPage extends HelperClass {
     	txtMobileNbr.sendKeys(mobile);
     	chkbxPrivacy.click();
     	btnConfirm.click();
-    	System.out.println(String.format("Entered contact details of the passenger.\n Email Id: " + email + "\n Phone: " + countryCode + mobile));
+    	LogInfo(String.format("Entered contact details of the passenger.\n Email Id: " + email + "\n Phone: " + countryCode + mobile));
     }
   
     

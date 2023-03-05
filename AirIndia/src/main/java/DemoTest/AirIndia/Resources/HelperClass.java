@@ -1,5 +1,6 @@
 package DemoTest.AirIndia.Resources;
 
+import org.apache.logging.log4j.*;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 
@@ -28,5 +29,10 @@ public class HelperClass {
 		WaitForFiveSeconds();
 		element.sendKeys(Keys.ENTER);
 		WaitForFiveSeconds();
+	}
+	
+	public static void LogInfo(String msg) {
+		Logger log = LogManager.getLogger("HelperClass");
+		log.info(msg);
 	}
 }
