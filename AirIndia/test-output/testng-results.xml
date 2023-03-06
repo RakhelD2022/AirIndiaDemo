@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-06T11:09:16 IST" name="Surefire suite" finished-at="2023-03-06T11:09:32 IST" duration-ms="15206">
+  <suite started-at="2023-03-06T11:05:08 IST" name="Suite" finished-at="2023-03-06T11:05:20 IST" duration-ms="11321">
     <groups>
     </groups>
-    <test started-at="2023-03-06T11:09:16 IST" name="Surefire test" finished-at="2023-03-06T11:09:32 IST" duration-ms="15206">
+    <test started-at="2023-03-06T11:05:08 IST" name="Test" finished-at="2023-03-06T11:05:20 IST" duration-ms="11321">
       <class name="DemoTest.AirIndia.BookAFlightTest">
-        <test-method signature="BookAFlight()[pri:0, instance:DemoTest.AirIndia.BookAFlightTest@18ce0030]" started-at="2023-03-06T11:09:17 IST" name="BookAFlight" finished-at="2023-03-06T11:09:32 IST" duration-ms="15098" status="FAIL">
+        <test-method signature="BookAFlight()[pri:0, instance:DemoTest.AirIndia.BookAFlightTest@36bc55de]" started-at="2023-03-06T11:05:09 IST" name="BookAFlight" finished-at="2023-03-06T11:05:20 IST" duration-ms="11157" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
@@ -16,9 +16,9 @@ from unknown error: web view not found
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bd02e440a5a600b80dc6c5c3357c286f, findElement {using=xpath, value=(//*[@id="typeahead-basic"])[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rakhe\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53175}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53175/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: bd02e440a5a600b80dc6c5c3357c286f]]>
+Command: [12da4f747490608a172e3d6df44ad96f, findElement {using=xpath, value=//*[contains(text(),'X Close')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rakhe\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52791}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52791/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 12da4f747490608a172e3d6df44ad96f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
@@ -27,9 +27,9 @@ from unknown error: web view not found
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bd02e440a5a600b80dc6c5c3357c286f, findElement {using=xpath, value=(//*[@id="typeahead-basic"])[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rakhe\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53175}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53175/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: bd02e440a5a600b80dc6c5c3357c286f
+Command: [12da4f747490608a172e3d6df44ad96f, findElement {using=xpath, value=//*[contains(text(),'X Close')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rakhe\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52791}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52791/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 12da4f747490608a172e3d6df44ad96f
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -46,10 +46,9 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
-at DemoTest.AirIndia.Resources.HelperClass.EnterTextAndEnter(HelperClass.java:28)
-at DemoTest.AirIndia.PageObjects.SearchPage.EnterToAndFromDestinations(SearchPage.java:77)
-at DemoTest.AirIndia.BookAFlightTest.EnterTravelDetails(BookAFlightTest.java:70)
+at jdk.proxy2/jdk.proxy2.$Proxy28.isDisplayed(Unknown Source)
+at DemoTest.AirIndia.PageObjects.SearchPage.ClosePromoAd(SearchPage.java:64)
+at DemoTest.AirIndia.BookAFlightTest.EnterTravelDetails(BookAFlightTest.java:68)
 at DemoTest.AirIndia.BookAFlightTest.BookAFlight(BookAFlightTest.java:47)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
@@ -74,14 +73,9 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
 at org.testng.TestNG.runSuites(TestNG.java:1099)
 at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:111)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
@@ -89,6 +83,6 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           </reporter-output>
         </test-method> <!-- BookAFlight -->
       </class> <!-- DemoTest.AirIndia.BookAFlightTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
