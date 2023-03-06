@@ -1,6 +1,6 @@
 DemoTest\AirIndia\PageObjects\SearchResultPage.class
 DemoTest\AirIndia\PageObjects\TravellerPage.class
-DemoTest\AirIndia\PageObjects\FlightDetailsPage.class
 DemoTest\AirIndia\Resources\HelperClass.class
 DemoTest\AirIndia\PageObjects\CheckoutPage.class
+DemoTest\AirIndia\PageObjects\FlightDetailsPage.class
 DemoTest\AirIndia\PageObjects\SearchPage.class
